@@ -48,15 +48,15 @@ describe('Visual monitor sidebar testing', function() {
     shoovWebdrivercss.after(done);
   });
 
-  it('should show the sidebar navigation in widescreen',function(done) {
-    client
-      .url(baseUrl)
-      .click('a.flip')
-      .webdrivercss(testName + '.sidebar-flip', {
-        name: '1',
-        elem: '.side.front'
-      },
-      shoovWebdrivercss.processResults)
-      .call(done);
-  });
+  //it('should show the sidebar navigation in widescreen',function(done) {
+  //  client
+  //    .url(baseUrl)
+  //    .click('a.flip')
+  //    .webdrivercss(testName + '.sidebar-flip', {
+  //      name: '1',
+  //      elem: '.side.front'
+  //    },
+  //    shoovWebdrivercss.processResults)
+  //    .call(done);
+  //});
 });
