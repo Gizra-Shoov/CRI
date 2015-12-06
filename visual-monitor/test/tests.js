@@ -45,7 +45,7 @@ var caps = selectedCaps ? capsConfig[selectedCaps] : undefined;
 var providerPrefix = process.env.PROVIDER_PREFIX ? process.env.PROVIDER_PREFIX + '-' : '';
 var testName = selectedCaps ? providerPrefix + selectedCaps : providerPrefix + 'default';
 
-var baseUrl = process.env.BASE_URL ? process.env.BASE_URL : 'http://live-cri.gotpantheon.com';
+var baseUrl = process.env.BASE_URL ? process.env.BASE_URL : 'http://www.cri.co.il';
 
 describe('Visual monitor testing', function() {
 
