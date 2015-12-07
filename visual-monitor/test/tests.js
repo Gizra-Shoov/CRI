@@ -95,7 +95,7 @@ describe('Visual monitor testing', function() {
       .call(done);
   });
 
-  it('should show the about page',function(done) {
+  /*it('should show the about page',function(done) {
     client
       .url(baseUrl + '/about')
       .webdrivercss(testName + '.about', {
@@ -225,6 +225,6 @@ describe('Visual monitor testing', function() {
         screenWidth: selectedCaps == 'chrome' ? [320, 1200] : undefined
       }, shoovWebdrivercss.processResults)
       .call(done);
-  });
+  });*/
 
 });
