@@ -84,6 +84,8 @@ describe('Visual monitor testing', function() {
           ],
         remove:
           [
+            // Remove all the articles.
+            '.more_articles',
             // Main article tab subject.
             'div.triangle',
             '.list-block .page-mark',
