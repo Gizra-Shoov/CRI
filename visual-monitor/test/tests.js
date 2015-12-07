@@ -90,7 +90,7 @@ describe('Visual monitor testing', function() {
             // Sidebar article.
             '.list-block .page-mark-big',
           ],
-        screenWidth: selectedCaps == 'chrome' ? [320, 1200] : undefined
+        screenWidth: selectedCaps == 'chrome' ? [1200] : undefined
       }, shoovWebdrivercss.processResults)
       .call(done);
   });
